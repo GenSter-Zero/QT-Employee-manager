@@ -1,0 +1,76 @@
+/*主页面样式*/
+/*按钮样式*/
+QTreeWidget#treeWidget {
+    border-top: 1px;
+    background-color: #06ff00;
+    color: white;
+    font-size: 18px;
+}/*左侧导航栏样式*/
+QLineEdit#le_find {
+    border-radius: 6px;
+    border: 2px solid #d8e9b4;
+    min-height: 22px;
+}/*搜索框样式*/
+QPushButton[btn="main"] {
+    min-width: 80px;
+    min-height: 26px;
+    border-radius: 3px;
+    font-size: 15px;
+    color: white;
+    background-color: #8e00b7;
+}/*主页面按钮样式*/
+QPushButton[btn="main"]:pressed {
+    min-width: 80px;
+    min-height: 25px;
+    border-radius: 3px;
+    font-size: 15px;
+    color: white;
+    background-color:#98cb7e;
+}/*主页面按钮按下样式*/
+QCheckBox::indicator:checked {
+    color: #1ABC9C;
+    width: 15px;
+    height: 15px;
+}/*全选框样式*/
+QCheckBox::indicator {
+    width: 15px;
+    height: 15px;
+}/*全选框大小*/
+QWidget#bg_title {
+    background-color: #ff0000;
+    border-bottom: 1px solid white;
+}/*主页面顶部样式*/
+QTableWidget#tableWidget_2 {
+    border: 1px solid gray;
+}/*表格样式*/
+QHeaderView::section {
+    background-color: white;
+    font: 18px "微软雅黑";
+    font-weight: bold;
+    height: 36px;
+    color: #909399;
+    border: 1px solid gray;
+    border-left: none;
+    text-align: center;
+    max-width: 50px;
+}/*表头样式*/
+QHeaderView::item {
+    font: 14px "微软雅黑";
+    color: #677483;
+    border: 2px;
+
+}/*数据样式*/
+QLabel#lb_cnt{
+    color:black;
+}/*统计样式*/
+QLabel#lb_dpm_one {
+    color: black;
+}
+/*统计样式*/
+QLabel#lb_dpm_two {
+    color: black;
+}
+/*统计样式*/
+QLabel {
+    color: white;
+}/*字体颜色样式*/
